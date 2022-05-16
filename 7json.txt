@@ -1,0 +1,2 @@
+MessageName:mouse left down | TimeStamp:2019-02-13 15:43:31.664 |  Window:13500784 | Position:(483, 587) | Wheel:0
+MessageName:mouse left up | TimeStamp:2019-02-13 15:43:31.873 | Window:13500784 | Position:(483, 587) | Wheel:0

@@ -1,0 +1,85 @@
+JSON is a serialization format. That is, JSON is a way of representing structured data in the
+form of a textual string. 
+A dictionary is a data structure.But they aren’t the same: dictionaries are for working with data
+in your program, and JSON is for storing it or sending it around between programs.
+
+json: Java script object notation is a way of storing information in an easy manner
+
+json:Standardize formate commonly used to transfer data as a text that can be sent over network
+
+JSON is a syntax for storing and exchanging data
+
+
+
+
+
+
+
+The json. loads() method allows us to convert a JSON string into an equivalent python object (dictionary).
+ In other words, it helps us to receive the data from json to python.
+
+load():takes a file object and returns the json object. It is used to read JSON encoded data from a 
+file and convert it into a Python dictionary and deserialize a file itself i.e. it accepts a file object.
+
+Syntax: json.load(fp, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, 
+object_pairs_hook=None, **kw)
+
+Parameters:
+fp: File pointer to read text.
+
+object_hook: It is an optional parameter that will be called with the result of any object literal decoded.
+
+parse_float: It is an optional parameter that will be called with the string of every JSON float to 
+be decoded. 
+
+parse_int: It is an optional parameter that will be called with the string of every JSON int to be decoded.
+
+object_pairs_hook: It is an optional parameter that will be called with the result of any object literal 
+decoded with an ordered list of pairs.
+
+
+loads():method can be used to parse a valid JSON string and convert it into a Python Dictionary. 
+It is mainly used for deserializing native string, byte, or byte array which consists of JSON data 
+into Python Dictionary.
+
+Syntax: json.loads(s, encoding=None, cls=None, object_hook=None, parse_float=None, parse_int=None, 
+parse_constant=None, object_pairs_hook=None, **kw)
+
+Parameters:
+
+s: Deserialize str (s) instance containing a JSON document to a Python object using this conversion table.
+
+object_hook: It is an optional parameter that will be called with the result of any object literal decoded.
+
+parse_float: It is an optional parameter that will be called with the string of every JSON float to 
+be decoded. 
+
+parse_int: It is an optional parameter that will be called with the string of every JSON int to be decoded.
+
+object_pairs_hook: It is an optional parameter that will be called with the result of any object literal 
+decoded with an ordered list of pairs.
+
+
+
+
+
+DUMPS():json.dumps() method can convert a Python object into a JSON string.
+
+Syntax: json.dumps(dict, indent)
+
+Parameters:
+
+dictionary – name of dictionary which should be converted to JSON object.
+indent – defines the number of units for indentation
+
+
+
+
+DUMP():json.dump() method can be used for writing to JSON file.
+
+Syntax: json.dump(dict, file_pointer)
+
+Parameters:
+
+dictionary – name of dictionary which should be converted to JSON object.
+file pointer – pointer of the file opened in write or append mode.
